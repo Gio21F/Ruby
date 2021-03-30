@@ -7,6 +7,7 @@ include Fox
 class Ventana < FXMainWindow
     def initialize(app)
         #Inicializacion de ventana Login
+        #Este es un cambio nuevo
         @app = app
         db = SQLite3::Database.new "test.db"
         super(app, "Log In", :width=>300, :height=>300)

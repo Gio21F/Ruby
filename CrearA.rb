@@ -7,6 +7,7 @@ class CrearA < FXMainWindow
         super(app, "Agregar Alumnos", :width=>300, :height=>300)
 
         #Datos a agregar
+        #Tambien es un cambio
         FXLabel.new(self, "Correo", :x=>20, :y=>20)
         @correo = FXTextField.new(self, 25)
         FXLabel.new(self, "Contraseña", :x=>20, :y=>20)
